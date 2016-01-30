@@ -65,7 +65,7 @@ h2, h3, h4, h5 { padding: 0 0 10px;}
 .inline-block {display: inline-block;}
 .image-padding { padding: 15px 5px 5px;}
 .selfie {
-	background-image: url('/images/profile/IMG_8478.jpg');
+	background-image: url('../images/profile/IMG_8478.jpg');
 	background-position: center;
 	background-size: cover;
 	width: 200px;
