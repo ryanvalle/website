@@ -1,0 +1,77 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "fira-sans-2",sans-serif;
+	font-weight: 600;
+}
+
+
+header, section {
+	padding: 20px 10px;
+}
+
+section#selfie {
+	padding: 20px 10px 0;
+}
+
+section * { color: #2a4d69; }
+
+h2, h3, h4, h5 { padding: 0 0 10px;}
+
+.light { font-weight: 200; }
+.medium { font-weight: 600;}
+.strong { font-weight: 800; }
+
+.text-center { text-align: center }
+.text-right { text-align: right }
+
+.font-sm { font-size: 12px;}
+
+.blue-1 { color: #2a4d69 }
+.blue-2 { color: #4b86b4 }
+.blue-3 { color: #63ace5 }
+.blue-4 { color: #adcbe3 }
+.blue-5 { color: #e7eff6 }
+
+.bg-blue-1 { background: #2a4d69 }
+.bg-blue-2 { background: #4b86b4 }
+.bg-blue-3 { background: #63ace5 }
+.bg-blue-4 { background: #adcbe3 }
+.bg-blue-5 { background: #e7eff6 }
+
+.box-shadow { box-shadow: 0 0 10px #2a4d69;}
+
+.divider { border-bottom: 1px dashed #adcbe3; }
+.max-width-center { max-width: 700px; margin: 0 auto;}
+
+.scale {
+	-moz-transition: transform 250ms;
+	-webkit-transition: transform 250ms;
+	transition: transform 250ms;
+	-moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	padding: 3px;
+}
+
+.scale:hover {
+	-moz-transform: scale(1.10);
+	-webkit-transform: scale(1.10);
+	transform: scale(1.10);	
+}
+
+.block {display: block}
+.inline-block {display: inline-block;}
+.image-padding { padding: 15px 5px 5px;}
+.selfie {
+	background-image: url('/images/profile/IMG_8478.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 200px;
+	border: 4px solid #e7eff6;
+	box-shadow: 0 0 10px #2a4d69;
+}
